@@ -1,6 +1,6 @@
 {
   "name": "urlencode-stream",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A streams2 Transform stream that urlencodes the text piped through it.",
   "main": "index.js",
   "scripts": {
