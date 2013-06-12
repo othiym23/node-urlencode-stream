@@ -1,0 +1,33 @@
+{
+  "name": "urlencode-stream",
+  "version": "0.0.0",
+  "description": "A streams2 Transform stream that urlencodes the text piped through it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/urlencode-stream.tap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/othiym23/node-urlencode-stream.git"
+  },
+  "keywords": [
+    "streams2",
+    "stream",
+    "urlencode",
+    "transform",
+    "form",
+    "http"
+  ],
+  "author": "Forrest L Norvell <ogd@aoaioxxysz.net>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/othiym23/node-urlencode-stream/issues"
+  },
+  "dependencies": {
+    "readable-stream": "~1.0.2"
+  },
+  "devDependencies": {
+    "tap": "~0.4.3",
+    "concat-stream": "~1.0.0"
+  }
+}
