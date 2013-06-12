@@ -13,6 +13,8 @@ function URLEncodeStream(options) {
 util.inherits(URLEncodeStream, Transform);
 
 URLEncodeStream.prototype._transform = function (chunk, encoding, callback) {
+  if (encoding === 'buffer') encoding = 'binary';
+
   this.push(encodeURIComponent(chunk.toString(encoding)));
 
   return callback();
